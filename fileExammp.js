@@ -36,12 +36,34 @@ const fs = require('fs');
 
 //writeFile
 
-let content = "Wao this the dynamic content: "
-fs.writeFile("new_file.txt", content, (err) => {
+// let content = "Wao this the dynamic content: "
+// fs.writeFile("new_file.txt", content, (err) => {
+//   if(err){
+//     console.log(err);
+//   }
+//   else{
+//     console.log("Saved: ");
+//   }
+// });
+
+//apendFile      //adding new content in abc.txt file
+
+// fs.appendFile("./abc.txt", "new content", (err) => {
+//   if(err){
+//     console.log("Erre", +err)
+//   }
+//   else{
+//     console.log("Saved ")
+//   }
+// });
+
+
+//delete file   //deleted the given abc.txt file from the folder
+
+fs.unlink("./abc.txt", (err) => {
   if(err){
-    console.log(err);
-  }
-  else{
-    console.log("Saved: ");
+    console.log("Erroe", +err);
+  }else{
+    console.log("Deleted");
   }
 });
