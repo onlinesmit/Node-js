@@ -1,0 +1,6 @@
+it is a library where all code are already written
+example of module like.. nodemon, express, url etc
+
+
+how to import module
+by using require("  ") we can import module
