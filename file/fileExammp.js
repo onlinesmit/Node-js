@@ -62,7 +62,7 @@ const fs = require('fs');
 
 fs.unlink("./abc.txt", (err) => {
   if(err){
-    console.log("Erroe", +err);
+    console.log("Error", +err);
   }else{
     console.log("Deleted");
   }
