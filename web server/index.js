@@ -4,9 +4,9 @@ const fs = require('fs');
 const myServer = http.createServer((req, res) => {
   // console.log("New request receive");
   // console.log(req);
-  const log = `${Date.now()}: New req receive`;
+  const log = `${Date.now()}: ${req.url}New req received\n`;
   fs.appendFile('log.txt', log, (err, data) => {
-    res.end("Hello from server");
+    res.end("Hello from server again");
   }); 
 });
 
