@@ -26,3 +26,7 @@
 1716750577476: /about?myname=sk New req received
 1716750687407: /search?q=sk New req received
 1716750704139: /search?q=sk New req received
+1716818246297: / New req received
+1716818255523: /signup New req received
+1716818378675: GET /signup New req received
+1716818416546: GET / New req received
