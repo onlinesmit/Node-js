@@ -1,0 +1,18 @@
+//version: "^4.18.2"
+
+//first version is 2  it is for small changes
+
+//18 is the second version for midium changes
+
+//4 is the highest version- Major/ Breaking updates
+
+
+//^4.18.2   the carrot means 4 is not changable  it can be change 4.18.3  or 4.15.1 always <5.0.0
+
+
+//^  it install all minor changes but cann't update mazor updates    means its competible for version
+
+//~4.18.2 change or update into 4.18.2 || 4.18.3|| 4.18.5   but not change 4.19.2 
+
+//try to not use latest because may be today is another version and after that another changes
+//if u want to learn versioning then refer npm documentation from
